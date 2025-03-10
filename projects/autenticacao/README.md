@@ -1,63 +1,48 @@
-# Autenticacao
+# SIGAE Open Source - Microfrontend de Autenticação
+Este repositório contém a biblioteca de autenticação do projeto SIGAE.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.0.
+## Tecnologias Utilizadas
+- Angular 19 (Standalone)
+- Native Federation 19 
+- PrimeNG
+- Primeicons
+- Tailwind
+- MSW
+- Auth0
 
-## Code scaffolding
+## Configuração e Execução
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. Clone o repositório:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the library, run:
-
-```bash
-ng build autenticacao
-```
-
-This command will compile your project, and the build artifacts will be placed in the `dist/` directory.
-
-### Publishing the Library
-
-Once the project is built, you can publish your library by following these steps:
-
-1. Navigate to the `dist` directory:
-   ```bash
-   cd dist/autenticacao
+   ```sh
+    https://github.com/patriciacrestani/sigae-autenticacao.git
+    cd sigae-autenticacao
    ```
 
-2. Run the `npm publish` command to publish your library to the npm registry:
-   ```bash
-   npm publish
+2. Instale as dependências:
+
+   ```sh
+    npm install
    ```
 
-## Running unit tests
+3. Faça o build da bibilioteca e estabeleça o link
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+   ```sh
+    ng build autenticacao
+    npm link autenticacao
+   ```
 
-```bash
-ng test
-```
+4. Estabeleça o link nos demais projetos
 
-## Running end-to-end tests
+   ```sh
+    npm link autenticacao
+   ```
 
-For end-to-end (e2e) testing, run:
+## Contribuição
+1. Fork o repositório.
+2. Crie uma branch para sua feature.
+3. Realize as modificações e commit.
+4. Envie um Pull Request.
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Licença
+Este projeto está sob a licença MIT.
